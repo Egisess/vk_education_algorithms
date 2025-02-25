@@ -9,7 +9,4 @@ def solution_1(nums: list[int], target: int) -> list[int]:
         else:
             return [left, right]
 
-    return [-1, -1]
-
-
-print(solution_1([1, 2, 3, 6, 10, 120, 128], 11))
+    return []

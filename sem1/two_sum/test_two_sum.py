@@ -17,8 +17,8 @@ test_nums = [1, 3, 5, 7, 13]
     (test_nums, 14, [[0, 4]]),
     ([-1, 1], 0, [[0, 1]]),
     ([1, 3], 4, [[0, 1]]),
-    ([1, 3], 3, [[-1, -1]]),
-    ([1], 2, [[-1, -1]]),
+    ([1, 3], 3, [[]]),
+    ([1], 2, [[]]),
 ])
 def test_solutions(nums, target, expected):
     assert solution_1(nums, target) in expected
